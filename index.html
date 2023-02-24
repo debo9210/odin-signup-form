@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,11 +17,57 @@
             </div>
         </aside>
         <main class="formSection">
-            <p>Form goes here</p>
-            <!-- <div class="sidebar">
-                <img src="images/odin-lined.png" alt="brand">
-                <h3>ODIN</h3>
-            </div> -->
+            <div class="formContainer">
+                <div class="introContainer">
+                    <p>
+                        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                    </p>
+                    <p>Sign up now to get started.</p>
+                    <p>You <em>know</em> you want to</p>
+                </div>
+    
+                <form action="" >
+                    <div class="formDetails">
+                        <h4>Let's do this!</h4>
+    
+                        <fieldset class="personalInfoContainer">
+                            <div class="personalInfo">
+                                <label for="firstName">first name</label>
+                                <input type="text" name="firstName" id="firstName" required>
+                            </div>
+                            <div class="personalInfo">
+                                <label for="lastName">last name</label>
+                                <input type="text" name="lastName" id="lastName" required>
+                            </div>
+                        </fieldset>
+                        <fieldset class="personalInfoContainer">
+                            <div class="personalInfo">
+                                <label for="email">email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            <div class="personalInfo">
+                                <label for="phoneNumber">phone number</label>
+                                <input type="tel" name="phoneNumber" id="phoneNumber" required>
+                            </div>
+                        </fieldset>
+                        <fieldset class="personalInfoContainer">
+                            <div class="personalInfo">
+                                <label for="password">password</label>
+                                <input type="password" name="password" id="password" class="error1" required>
+                                <small class="errMsg"></small>
+                            </div>
+                            <div class="personalInfo">
+                                <label for="password2">confirm password</label>
+                                <input type="password" name="password" id="password2" class="error2" required>
+                            </div>
+                        </fieldset>
+                    </div>
+                        <button type="submit" class="btn">create account</button>
+                    </form>
+    
+                    <p class="login">Already have an account? Log in</p>
+            </div>
+            
         </main>
         
     </div>
